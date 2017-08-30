@@ -1,7 +1,5 @@
 package eu.redzoo.ml;
 
-import eu.redzoo.ml.utils.Graph;
-import eu.redzoo.ml.utils.Data;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 import weka.classifiers.functions.LinearRegression;

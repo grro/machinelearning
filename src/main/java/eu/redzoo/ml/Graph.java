@@ -1,4 +1,4 @@
-package eu.redzoo.ml.utils;
+package eu.redzoo.ml;
 
 
 import java.awt.Color;
@@ -22,6 +22,8 @@ import org.jfree.ui.ApplicationFrame;
 import org.jfree.ui.RefineryUtilities;
 
 
+
+// helper class to print a graph
 public class Graph extends ApplicationFrame {
 
     private static final Color[] COLORS = new Color[] { Color.YELLOW, Color.GREEN, Color.BLUE, Color.MAGENTA };
@@ -79,7 +81,7 @@ public class Graph extends ApplicationFrame {
     }
 
 
-    public void addLine(String label, int layer, Color color, int length, Function<Double, Double> func) {
+    private void addLine(String label, int layer, Color color, int length, Function<Double, Double> func) {
         LineFunction linefunction2d = new LineFunction(func);
         XYDataset dataset = DatasetUtilities.sampleFunction2D(linefunction2d, 0D, length, 100, label);
 
@@ -101,7 +103,7 @@ public class Graph extends ApplicationFrame {
 
         private final Function<Double, Double> func;
 
-        public LineFunction(Function<Double, Double> func) {
+        private LineFunction(Function<Double, Double> func) {
             this.func = func;
         }
 

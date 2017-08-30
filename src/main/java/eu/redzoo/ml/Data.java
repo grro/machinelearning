@@ -1,4 +1,4 @@
-package eu.redzoo.ml.utils;
+package eu.redzoo.ml;
 
 
 import java.io.File;
@@ -14,6 +14,8 @@ import org.jfree.data.xy.XYSeries;
 import com.google.common.base.Splitter;
 
 
+
+// helper class to load example data
 public class Data {
 
     public static List<Double[]> load(String name) {

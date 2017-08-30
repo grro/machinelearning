@@ -1,6 +1,5 @@
 package eu.redzoo.ml;
 
-import eu.redzoo.ml.LinearRegressionFunction;
 
 import java.util.List;
 

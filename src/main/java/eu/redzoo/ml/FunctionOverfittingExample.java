@@ -1,8 +1,5 @@
 package eu.redzoo.ml;
 
-import eu.redzoo.ml.utils.Graph;
-import eu.redzoo.ml.utils.Data;
-
 import java.io.IOException;
 import java.util.List;
 import java.util.function.Function;

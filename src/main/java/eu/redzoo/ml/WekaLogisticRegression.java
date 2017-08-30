@@ -1,10 +1,7 @@
 package eu.redzoo.ml;
 
-import eu.redzoo.ml.utils.Data;
-import eu.redzoo.ml.utils.Graph;
 import weka.classifiers.Classifier;
 import weka.classifiers.functions.Logistic;
-import weka.classifiers.trees.J48;
 import weka.core.Attribute;
 import weka.core.DenseInstance;
 import weka.core.Instance;
